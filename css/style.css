@@ -1,0 +1,245 @@
+body {
+  background:white;
+  font-family: sans-serif;
+  color:black;
+  margin: 0 2em;
+  padding: 0;
+}
+
+/*header{
+  background-color: green;
+}*/
+
+#headerTitle{ 
+  text-align:right;
+/*  margin:20px 0 20px 0;*/
+  color:#FFCC00;
+  font-size:36px;
+  font-weight: bold;
+  display:inline-block;
+  width:35%;
+/*  background: green;*/
+} 
+
+
+#cba {
+    display: inline-block;
+    width:150px;
+  }
+
+#myTopnav {
+  display: inline-block;
+  float:right;
+  padding-right:10px;
+  font-size:12px;
+  color:white;
+}
+
+header{
+  margin-bottom:-25px;
+}
+
+
+.button{
+  color:black;
+  width:170px;
+  height:50px;
+  background-color: #FFCC00;
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  /*margin-bottom: 20px;*/
+}
+
+/*.button:hover {background-color: #3EB5E5}*/
+
+.button:active {
+  background-color: #3EB5E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.pButton, .cButton, .radioButton{
+/*  color:black;*/
+  width:50px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 12px;
+  /*font-size: 14px;*/
+}
+
+
+/*#col1, #col2, #col3 {
+  margin-left:0px 15px;
+  border:3px solid #3EB5E5;
+}*/
+
+
+
+#col1, #col2, #col3, #col4{
+  height:400px;
+  font-size:15px;
+  margin-left:0px 15px;
+  border:3px solid #3EB5E5;  
+  overflow:auto;
+}
+
+
+#submit, #reset{  
+  color:black;
+  width:70px;
+  height:40px;
+  margin-bottom:20px;
+  
+  background-color: #FFCC00;
+  border: none;
+  border-radius: 40%;
+  text-align: center;
+  text-decoration: none;
+ /* display: inline-block;*/
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+#submit:active {
+  background-color: #3EB5E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#reset:active {
+  background-color: #3EB5E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.channel {
+/*  opacity: 0.8;  */
+/*  margin-right: 20px;*/
+  margin-bottom: 10px; 
+  border-radius: 24px;
+}
+
+.channel:hover{
+  opacity: 0.7;
+}
+
+
+#log{
+  margin-top:30px;
+  padding: 5px;
+  font-size: 16px;
+  /*background:gray;*/
+  border:2px solid #3EB5E5;
+  /*word-wrap:break-word;*/
+  /*white-space:pre-line;*/
+  /*display:inline-block;*/
+}
+
+nav{
+/*  background:green;*/
+  width:100%;
+}
+
+
+
+/*mark {
+    background-color: yellow;
+}*/
+
+
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+/*    margin-top: 20px;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 14px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+/*    float: right;*/
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/*.container-fluid{
+  margin-bottom: 100px;
+}*/
+
+
+
+footer {
+  padding: 10px 0 10px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 50px 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+  font-style: italic;
+}
+
