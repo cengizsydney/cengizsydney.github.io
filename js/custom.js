@@ -112,7 +112,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[0]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num1').text(Math.ceil(this.countNum));
@@ -127,7 +127,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[1]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num2').text(Math.ceil(this.countNum));
@@ -142,7 +142,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[2]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num3').text(Math.ceil(this.countNum));
@@ -157,7 +157,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[3]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num4').text(Math.ceil(this.countNum));
@@ -172,7 +172,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[4]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num5').text(Math.ceil(this.countNum));
@@ -187,7 +187,7 @@ $(document).ready(function(){
 	}).animate({
 	    countNum: arr[5]
 	}, {
-	    duration: 2000,
+	    duration: 1500,
 	    easing: 'linear',
 	    step: function () {
 	        $('.num6').text(Math.ceil(this.countNum));

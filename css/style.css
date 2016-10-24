@@ -18,7 +18,7 @@ body {
   letter-spacing: 7px; 
   font-weight: bold;
   display:inline-block;
-  width:50%;
+  width:40%;
 /*  background: green;*/
 } 
 
@@ -298,28 +298,31 @@ p.title.coloredText > span.f {
   text-align: center;
 }
 
+.yy{
+  margin-top:30px;
+}
+
 
 .yy, .zz{
   text-align: center;
 }
 
 
-.numberCircle {
-    border-radius: 50%;
-  
-    width: 100px;
+
+
+.numberCircle_ {
+    border-radius: 50%;  
+    width: 100px;  
     height: 100px;
-    padding: 20px;
-    margin:35px;
-    
+    padding: 20px;    
     background: #fff;
     border: 5px solid #666;
     color: #666;
     text-align: center;
-    display:inline-block;
-    
-    font: 44px Arial, sans-serif;
+    display:inline-block;    
+    font: 44px Arial, sans-serif;    
 }
+
 
 .get__lotto_numbers {
   padding: 10px !important;
